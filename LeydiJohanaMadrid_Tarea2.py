@@ -17,18 +17,19 @@ totalConIva = sumaProductos + ivaProductos
 
 
 #Muestre cada producto y precio
-print("\n---FACTURA DE VENTA---\n")
+print("\n---FACTURA DE VENTA📄---\n")
 print(f"1-  {productoUno}: {precioUno}")
 print(f"2-  {productoDos}: {precioDos}")
 print(f"3-  {productoTres}: {precioTres}")
+print()
 
 #Muestre el valor de la sumatoria de todos los precios de los productos.
-print(f"\nEl valor total de los productos es de: {sumaProductos}\n")
+print(f"El valor total de los productos es de: {sumaProductos}")
 
 #Muestre el precio del IVA que es del 19% del total.
 print(f"Iva: {ivaProductos}")
 
 #Muestre el valor total sumando el IVA.
-print(f"El valor total con Iva incluido es: {totalConIva}" )
+print(f"El valor total con Iva incluido es: {totalConIva}")
 
 
