@@ -25,7 +25,6 @@ def Opciones():
 print("\n-----------CALCULADORA 📱-----------\n")
 
 
-
 while True:
 
     Opciones()
@@ -33,7 +32,8 @@ while True:
     try:
         seleccionarOperacion= int(input("\n¿Qué operación deseas realizar 🤔?\n"))
     except:
-        print("\n¡ERROR! 😕 Escoge una opción válida\n")
+        print("\n-----¡ERROR! 😕 Escoge una opción válida-----\n")
+        continue
     
     if seleccionarOperacion == 1:
         print("\n---Sumar---😀\n")
@@ -67,7 +67,7 @@ while True:
         print("\n---Saliste de la calculadora---😔\n")
         break
     else:
-         print("\nOpción incorrecta 😐\n")
+         print("\n-----Opción incorrecta----- 😐\n")
            
 
 
